@@ -1,0 +1,41 @@
+{
+  "name": "@svelty/cli",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Mo Chen <mochen0505@hotmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "cli",
+    "esbuild",
+    "svelte"
+  ],
+  "bin": {
+    "sve": "bin/sve.js"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {},
+  "peerDependencies": {
+    "svelte": "3.*"
+  },
+  "dependencies": {
+    "boxen": "^5.1.2",
+    "chalk": "^2.4.2",
+    "commander": "^6.2.1",
+    "esbuild": "^0.14.25",
+    "esbuild-svelte": "^0.6.3",
+    "figlet": "^1.5.2",
+    "glob": "^7.2.0",
+    "got": "11.8.3",
+    "gradient-string": "^2.0.0",
+    "minimist": "^1.2.5",
+    "ora": "5.4.1",
+    "semver": "^6.3.0",
+    "shelljs": "^0.8.5"
+  }
+}
